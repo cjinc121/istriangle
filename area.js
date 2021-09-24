@@ -6,7 +6,7 @@ btn.addEventListener("click",()=>{
   { var a=0.5*inp[0].value*inp[1].value;
     msg.innerText=`Area Of Triangle is:  ${a} square cm`;}
     else{
-      MessageChannel.innerText="INVALID INPUT";
+      msg.innerText="INVALID INPUT";
     }
   
 
